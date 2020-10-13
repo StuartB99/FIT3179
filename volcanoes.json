@@ -1,13 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 700,
-  "height": 400,
+  "width": 1000,
+  "height": 700,
   "title": "Volcanoes Around the World",
   "autosize":"fit",
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/StuartB99/fit3179-ass-2/main/ne_110m.json",
+        "url": "https://raw.githubusercontent.com/StuartB99/FIT3179/main/ne_110m.json",
         "format": {
           "type": "topojson",
           "feature": "ne_110m_admin_0_countries"
@@ -24,7 +24,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/StuartB99/fit3179-ass-2/main/volcano.csv"
+        "url": "https://raw.githubusercontent.com/StuartB99/FIT3179/main/volcano.csv"
       },
       "projection": {
         "type": "equalEarth"
